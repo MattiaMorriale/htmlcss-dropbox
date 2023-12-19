@@ -22,6 +22,37 @@ nav{
 
 nav .container-nav{
     display: flex;
+    justify-content: space-between;
+
+    height: 100%;
 
     justify-content: space-between;
+}
+
+nav .container-nav .nav-box{
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+}
+
+nav .container-nav .nav-box .nav-img{
+    width: 150px;
+
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+nav .container-nav .nav-box .link-nav{
+    width: 100px;
+
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+nav .container-nav .nav-box .btn-nav{
+    width: 100px;
+
+    background-color: blue;
+    border: 2px dashed black;
 }
