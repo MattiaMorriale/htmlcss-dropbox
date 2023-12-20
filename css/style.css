@@ -391,11 +391,34 @@ main .designit .box-des{
 
 main .designit .box-des .mini-box{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 50%;
     width: 50%;  
 
     border: 2px dashed red;
 
+}
+
+main .designit .box-des .img-1{
+}
+
+main .designit .box-des .img-1 img{
+    
+
+    border: 15px solid #a2d39b;
+}
+
+main .designit .box-des .mini-box img{
+
+   height: 140px;
+   width: 140px;
+
+   object-fit: contain;
+
+   filter: invert(99%) sepia(31%) saturate(541%) hue-rotate(174deg) brightness(108%) contrast(100%);
 }
 
 
