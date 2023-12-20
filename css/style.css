@@ -431,6 +431,22 @@ main .business .title-2{
     width: 100%;
 }
 
+main .business .title-2 h3{
+    font-size: 30px;
+
+    color: #61082b;
+}
+
+
+main .business .title-2 a{
+    padding: 15px 55px;
+
+    text-decoration: none;
+    color: black;
+
+    background-color:white ;
+}
+
 /* seventh part*/
 
 main .faq{
