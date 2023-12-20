@@ -233,14 +233,36 @@ main .main-container .title-1 .check{
 
     margin-top: 60px;
     
-    gap: 5px;
+    gap: 15px;
     
 }
 
-main .main-container .title-1 input{
-    width: 20px;
-    height: 20px;
+main .main-container .title-1 .check input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
     
+    top: -5px;
+    left: -2px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    border: 5px solid #d1d3d1;
+
+}
+
+main .main-container .title-1 .check input[type='radio']:checked:after {
+    border-radius: 10px;
+    top: -5px;
+    left: -2px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border:5px solid #005fff;
+
 }
 
 main .main-container .title-1 .check p{
