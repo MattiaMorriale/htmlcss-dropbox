@@ -359,12 +359,17 @@ main .main-container .link-main{
     width: 100%;
     height: 190px;
 
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 
-    
 
-    background-color: rgb(238, 176, 131);
+}
 
+main .main-container .link-main h3{
+    font-size: 30px;
+}
+
+main .main-container .link-main a{
+    font-size: 15px;
 }
 
 /* fifth part */
