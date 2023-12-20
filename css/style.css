@@ -237,9 +237,10 @@ main .main-container .title-1 .check{
     
 }
 
-main .main-container .title-1 .checkbox{
+main .main-container .title-1 input{
     width: 20px;
     height: 20px;
+    
 }
 
 main .main-container .title-1 .check p{
