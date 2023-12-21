@@ -767,13 +767,18 @@ main .faq{
 
 
     width: 1050px;
+    height: 300px;
 
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
 }
 
 main .faq .faq-box{
     width: 100%;
+}
+
+main .faq .faq-box hr{
+    border-bottom: 0;
 }
 
 main .faq .faq-box h2{
@@ -786,8 +791,20 @@ main .faq .faq-box .question{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
 
     width: 100%;
+}
+
+main .faq .faq-box .question:hover{
+    background-color: #e0e0e0;
+}
+
+main .faq .faq-box .question:active .answer{
+    opacity: 1;
+    display: block;
+    padding: 10px 0;
 }
 
 main .faq .faq-box .question p{
@@ -797,6 +814,14 @@ main .faq .faq-box .question p{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+main .faq .faq-box .question .answer{
+    width: 100%;
+
+    display: none;
+    opacity: 0;
+}
+
 
 /* footer */
 
