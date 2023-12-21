@@ -60,6 +60,14 @@ nav .container-nav .nav-box .link-nav a{
     text-decoration: none;
 
     color: black;
+
+    transition: .2s ease;
+}
+
+nav .container-nav .nav-box .link-nav a:hover{
+    transform: scale(1.3);
+
+    transition: .2s ease;
 }
 
 nav .container-nav .nav-box .btn-nav{
@@ -78,6 +86,8 @@ nav .container-nav .nav-box .btn-nav span{
 
     color: white;
     background-color: #0061ff;
+
+    cursor: pointer;
 }
 
 /*  header */
@@ -156,6 +166,7 @@ header .header-box .header-container .header-p .jumbo-btn span{
     color: white;
 
     background-color: #0061ff;
+    cursor: pointer;
 }
 
 header .header-box .header-container .header-p i{
@@ -249,6 +260,8 @@ main .main-container .title-1 .check input[type='radio']:after {
     content: '';
     display: inline-block;
     border: 5px solid #d1d3d1;
+
+    cursor: pointer;
 
 }
 
@@ -367,9 +380,10 @@ main .main-container .main-box .payment-plan .payment-body .btn-4{
 }
 
 main .main-container .main-box .payment-plan .payment-body .btn-4 p{
-    background-color: #0061ff;
+    cursor: pointer;
 
     padding: 10px 20px;
+    background-color: #005fff;
 }
 
 main .main-container .main-box .payment-plan .payment-body span{
@@ -432,11 +446,15 @@ main .main-container .team .team-body .title-4 .btn-3{
 
     background-color:#0061ff;
     color: white;
+
+    cursor: pointer;
 }
+
 
 main .main-container .team .team-body .text{
     padding: 0 30px;
 }
+
 
 main .main-container .team .team-body .text p{
     margin-top: 60px; 
@@ -504,10 +522,17 @@ main .main-container .contract .text-contract .btn-2{
     background-color: white;
 
     margin-top: 30px;
+    padding: 10px 15px;
+
+    cursor: pointer;
+
+
 }
 
-main .main-container .contract .text-contract .btn-2 span{
-    padding: 10px 15px;
+main .main-container .contract .text-contract .btn-2:hover{
+    border: solid 1px #005fff;
+    background-color: #005fff;
+    color: white;
 }
 
 
@@ -630,6 +655,9 @@ main .designit .box-des .mini-box{
     height: 50%;
     width: 50%;  
 
+    transition: .2s ease;
+    cursor: pointer;
+
 }
 
 
@@ -644,9 +672,19 @@ main .designit .box-des .img-2{
     background-color:#61082b;
 }
 
+main .designit .box-des .img-2:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
+}
+
 main .designit .box-des .img-3{
 
     background-color:#0093ce;
+}
+
+main .designit .box-des .img-3:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
 }
 
 main .designit .box-des .img-4{
@@ -654,9 +692,19 @@ main .designit .box-des .img-4{
     background-color:#ff1c1c;
 }
 
+main .designit .box-des .img-4:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
+}
+
 main .designit .box-des .img-5{
 
     background-color:#d5001f;
+}
+
+main .designit .box-des .img-5:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
 }
 
 main .designit .box-des .img-6{
@@ -664,15 +712,33 @@ main .designit .box-des .img-6{
     background-color:#b4d0e7;
 }
 
+main .designit .box-des .img-6:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
+}
+
+
 main .designit .box-des .img-7{
 
     background-color:#0d2481;
 }
 
+main .designit .box-des .img-7:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
+}
+
+
 main .designit .box-des .img-8{
 
     background-color:#ffd830;
 }
+
+main .designit .box-des .img-8:hover{
+
+    border: 15px solid rgba(219, 219, 219, 0.493) ;
+}
+
 
 
 main .designit .box-des .mini-box img{
@@ -758,6 +824,12 @@ main .business .title-2 a{
     background-color:white ;
 }
 
+main .business .title-2 a:hover{
+    color: white;
+
+    background-color:#005fff;
+}
+
 /* seventh part*/
 
 main .faq{
@@ -795,14 +867,18 @@ main .faq .faq-box .question{
     padding: 0 10px;
 
     width: 100%;
+    cursor: pointer;
 }
 
 main .faq .faq-box .question:hover{
     background-color: #e0e0e0;
 }
 
+main .faq .faq-box .question:active i{
+    rotate: 180deg;
+}
+
 main .faq .faq-box .question:active .answer{
-    opacity: 1;
     display: block;
     padding: 10px 0;
 }
@@ -819,7 +895,6 @@ main .faq .faq-box .question .answer{
     width: 100%;
 
     display: none;
-    opacity: 0;
 }
 
 
@@ -876,6 +951,14 @@ footer .footer-box .list ul li{
     color: white;
 }
 
+footer .footer-box .list ul li:hover{
+    list-style-type: none;
+    text-decoration: underline;
+
+    cursor: pointer;
+    
+}
+
 footer .lang{
     margin-left: auto;
     margin-right: auto;
@@ -889,6 +972,8 @@ footer .lang{
     max-width: 1150px;
 
     color: white;
+
+    cursor: pointer;
 }
 
 footer .lang div{ 
@@ -902,4 +987,43 @@ footer .lang div{
     color:#99999b;
 
     border-top: 1px solid white;
+}
+
+footer .lang div .drop-menu{
+    border: none;
+    padding-top: 0;
+
+    opacity: 0;
+
+    display: flex;
+    align-items: flex-start;
+
+    height: 100px;
+    width: 150px;
+    overflow-y: auto;
+}
+
+footer .lang div:hover .drop-menu{
+    opacity: 1;
+}
+
+footer .lang div:hover .drop-menu{
+    opacity: 1;
+}
+
+
+.drop-menu::-webkit-scrollbar {
+    display: none;
+}
+
+footer .lang div:hover #caret-up{
+    rotate: 90deg;
+}
+
+footer .lang div .drop-menu ul li{
+    list-style-type: none;
+}
+
+footer .lang div .drop-menu ul li:hover{
+    background-color: #19191b;
 }
